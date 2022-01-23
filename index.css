@@ -1,3 +1,47 @@
+/*
+    main color = #2b2d47
+*/
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #2b2d47;
+
+}
+
+.content {
+    padding: 5px;
+}
+
 .header {
-    background-color: pink;
+    background-color: rgba(255, 255, 255, 0.08);
+    color: white;
+    padding: 5px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.section-wrap {
+    background-color: rgba(255, 255, 255, 0.08);
+    color: white;
+    padding: 5px;
+    text-align: left;
+}
+
+.section-header {
+    border-bottom: 1px dotted rgba(255, 255, 255, .2);
+    padding-bottom: 3px;
+    margin-bottom: 5px;
+    font-size: 18px;
+}
+
+.section-content {
+    background-color: rgba(255, 255, 255, 0.08);
+    padding: 4px 8px;
+    font-size: 16px;
+}
+
+.separator {
+    margin: 5px 0;
+    border-top: 1px dotted rgba(255, 255, 255, .2);
 }
