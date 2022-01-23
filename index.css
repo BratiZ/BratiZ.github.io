@@ -27,50 +27,5 @@ a {
     min-width: 600px;
     background-color: #2b2d47;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-}
-
-.header {
-    background-color: rgba(255, 255, 255, 0.08);
     color: white;
-    padding: 5px;
-    text-align: center;
-    font-weight: bold;
-}
-
-.section-wrap {
-    background-color: rgba(255, 255, 255, 0.08);
-    color: white;
-    padding: 5px;
-    text-align: left;
-}
-
-.section-header {
-    border-bottom: 1px dotted rgba(255, 255, 255, .2);
-    padding-bottom: 3px;
-    margin-bottom: 5px;
-    font-size: 18px;
-}
-
-.section-content {
-    background-color: rgba(255, 255, 255, 0.08);
-    padding: 4px 8px;
-    font-size: 16px;
-}
-
-.separator {
-    margin: 5px 0;
-    border-top: 1px dotted rgba(255, 255, 255, .2);
-}
-
-.accent-phrase {
-    font-style: italic;
-}
-
-.highlight-text {
-    animation: color-change 1.5s alternate;
-}
-
-@keyframes color-change {
-    0% { color: #10d521; }
-    100% { color: white; }
 }
