@@ -1,16 +1,32 @@
 /*
-    main color = #2b2d47
+    main color: #2b2d47
+    accent color: #10d521
 */
 
 body {
     margin: 0;
     padding: 0;
+    font-family: Arial, sans-serif;
     background-color: #2b2d47;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    height: 100vh;
+}
 
+a {
+    color: #10d521;
 }
 
 .content {
+    display: flex;
+    flex-direction: column;
+    flex: 0.5;
+    margin-top: 1%;
     padding: 5px;
+    min-width: 600px;
+    background-color: #2b2d47;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .header {
@@ -44,4 +60,17 @@ body {
 .separator {
     margin: 5px 0;
     border-top: 1px dotted rgba(255, 255, 255, .2);
+}
+
+.accent-phrase {
+    font-style: italic;
+}
+
+.highlight-text {
+    animation: color-change 1.5s alternate;
+}
+
+@keyframes color-change {
+    0% { color: #10d521; }
+    100% { color: white; }
 }
